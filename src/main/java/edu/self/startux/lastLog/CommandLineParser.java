@@ -140,7 +140,7 @@ public interface CommandLineParser {
 
                 /**
                  * Get the arguments that do not belong to a flag.
-                 * @param an array with the orphans.
+                 * @return an array with the orphans.
                  */
                 public List<String> getOrphans();
         }
