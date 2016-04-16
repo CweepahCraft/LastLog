@@ -19,13 +19,7 @@
 
 package edu.self.startux.lastLog;
 
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.ListIterator;
+import java.util.*;
 
 public class SimpleCLParser implements CommandLineParser {
         private static class FlagData {

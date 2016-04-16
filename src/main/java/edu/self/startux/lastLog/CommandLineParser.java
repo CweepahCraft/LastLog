@@ -19,7 +19,6 @@
 
 package edu.self.startux.lastLog;
 
-import java.text.ParseException;
 import java.util.List;
 
 public interface CommandLineParser {

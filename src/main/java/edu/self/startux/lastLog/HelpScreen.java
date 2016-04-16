@@ -19,13 +19,13 @@
 
 package edu.self.startux.lastLog;
 
-import java.lang.StringBuffer;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.YamlConfiguration;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class HelpScreen {
         private LastLogPlugin plugin;

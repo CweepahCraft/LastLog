@@ -19,14 +19,12 @@
 
 package edu.self.startux.lastLog;
 
-import java.util.Date;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Locale;
-import java.util.regex.Pattern;
 import java.util.regex.Matcher;
-import java.util.GregorianCalendar;
-import java.util.Calendar;
+import java.util.regex.Pattern;
 
 // Date with more decent output
 public class LastLogDate extends Date

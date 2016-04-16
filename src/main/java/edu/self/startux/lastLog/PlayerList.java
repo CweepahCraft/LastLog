@@ -19,13 +19,13 @@
 
 package edu.self.startux.lastLog;
 
-import java.lang.Iterable;
+import org.bukkit.Bukkit;
+import org.bukkit.OfflinePlayer;
+import org.bukkit.command.CommandSender;
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Iterator;
-import org.bukkit.OfflinePlayer;
-import org.bukkit.command.CommandSender;
-import org.bukkit.Bukkit;
 
 public class PlayerList implements Iterable<PlayerList.Entry> {
         final private static int PAGE_LENGTH = 10; // how many lines per page?
